@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Raiqa Health Assignment</h1>
+        <h1>Counter and List App</h1>
         <Counter onAddNumber={addNumber} />
         <ListView 
           numbers={sortedNumbers} 
